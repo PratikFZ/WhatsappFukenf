@@ -25,8 +25,8 @@ app.logger.addHandler(handler)
 app.logger.setLevel(logging.DEBUG)
 
 # Twilio credentials
-account_sid = 'ACf880dc484545a00019071a15b2fc1873'
-auth_token = '97578bef63e187dac40529f0276e0f35'
+account_sid = ''
+auth_token = ''
 twilio_client = Client(account_sid, auth_token)
 
 # MongoDB connection
